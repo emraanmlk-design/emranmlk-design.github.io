@@ -1,57 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CoverWise Online</title>
-  styles.css
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CoverWise Online — Insurance Guides</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-<!-- ✅ Navigation Bar -->
-<header class="site-header">
-  <div class="container nav">
-    /CoverWise</a>
-    <nav class="menu" aria-label="Primary">
-      /Home</a>
-      #plansPlans</a>
-      #blogBlog</a>
-      #faqFAQ</a>
-      #contactContact</a>
-      <button class="theme-toggle" type="button" aria-pressed="false">🌓</button>
-    </nav>
-    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-  </div>
-  <div class="container nav-drawer">
-    /Home</a>
-    #plansPlans</a>
-    #blogBlog</a>
-    #faqFAQ</a>
-    <a href="#contacta>
-  </div>
-</header>
+  <!-- =======================
+       Navigation (Top Bar)
+  ======================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="logo">CoverWise</a>
 
-<!-- ✅ Hero Section -->
-<section class="hero">
-  <div class="container center">
-    <h1 class="title">Understand Insurance Like Never Before</h1>
-    <p class="subtitle">
-      We help you explore the right insurance options, understand policies, and make smart financial decisions — all in one place.
-    </p>
-    #blogExplore Guides</a>
-  </div>
-</section>
+      <nav class="menu" aria-label="Primary">
+        <a href="#">Home</a>
+        <a href="#plans">Plans</a>
+        <a href="#blog">Blog</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-pressed="false">🌓</button>
+      </nav>
 
-<!-- ✅ Welcome Section -->
-<main class="container mt-3">
-  <h2>Welcome to CoverWise Online</h2>
-  <p>Independent insurance guides and comparisons.</p>
-</main>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
 
-<!-- ✅ Back to Top Button -->
-<button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <!-- Mobile drawer menu -->
+    <div class="container nav-drawer">
+      <a href="#">Home</a>
+      <a href="#plans">Plans</a>
+      <a href="#blog">Blog</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
 
-<!-- ✅ JS -->
-script.js</script>
-</body>
-</html>
+  <!-- =======================
+       Hero Section
+  ======================== -->
+  <section class="hero">
+    <div class="container center">
+      <h1 class="title">Understand Insurance Like Never Before</h1>
+      <p class="subtitle">
+        We help you explore the right insurance options, understand policies, and make smart financial decisions — all in one place.
+      </p>
+      <a href="#blog" class="btn">Explore Guides</a>
+    </div>
+  </section>
+
+  <!-- =======================
+       Welcome / Intro
+  ======================== -->
+  <main class="container mt-3">
+    <h2>Welcome to CoverWise Online</h2>
+    <p>Independent insurance guides and comparisons.</p>
+  </main>
+
+  <!-- =======================
+       Placeholder Sections
+  ======================== -->
+  <section id="plans" class="container mt-3">
+    <h2>Plans</h2>
+    <p class="text-muted">Health · Auto · Life — details coming up next step.</p>
+  </section>
+
+  <section id="blog" class="container mt-3">
+    <h2>Guides & Blog</h2>
+    <p class="text-muted">Starter articles will appear here.</p>
+  </section>
+
+  <section id="faq" class="container mt-3">
+    <h2>FAQ</h2>
+    <div class="accordion mt-2">
+      <div class="accordion-item">
+        <button class="accordion-button">What is a deductible?</button>
+        <div class="accordion-content">
+          <p>A deductible is the amount you pay out of pocket before your insurance coverage begins to pay.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button">What affects my premium?</button>
+        <div class="
